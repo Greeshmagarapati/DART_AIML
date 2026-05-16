@@ -1,0 +1,1026 @@
+{
+  "categories": [
+    {
+      "id": "milk-dairy",
+      "name": "Milk & Dairy",
+      "icon": "🥛",
+      "color": "#e3f2fd",
+      "accent": "#1565c0",
+      "description": "Milk, ghee, butter, paneer, khoya, chenna"
+    },
+    {
+      "id": "oils-fats",
+      "name": "Oils & Fats",
+      "icon": "🫙",
+      "color": "#fff8e1",
+      "accent": "#f57f17",
+      "description": "Coconut oil, edible oils, refined oils"
+    },
+    {
+      "id": "sweets-sugar",
+      "name": "Sweets & Sugar",
+      "icon": "🍯",
+      "color": "#fce4ec",
+      "accent": "#880e4f",
+      "description": "Honey, sugar, jaggery, silver leaves"
+    },
+    {
+      "id": "cereals-pulses",
+      "name": "Cereals & Pulses",
+      "icon": "🌾",
+      "color": "#e8f5e9",
+      "accent": "#1b5e20",
+      "description": "Rice, wheat, dal, atta, maida, ragi"
+    },
+    {
+      "id": "spices",
+      "name": "Spices",
+      "icon": "🌶️",
+      "color": "#fff3e0",
+      "accent": "#bf360c",
+      "description": "Chilli, turmeric, pepper, cumin, saffron, hing"
+    },
+    {
+      "id": "vegetables-fruits",
+      "name": "Vegetables & Fruits",
+      "icon": "🥦",
+      "color": "#f3e5f5",
+      "accent": "#4a148c",
+      "description": "Green vegetables, green peas, sweet potato"
+    },
+    {
+      "id": "beverages",
+      "name": "Beverages",
+      "icon": "☕",
+      "color": "#efebe9",
+      "accent": "#3e2723",
+      "description": "Coffee powder, tea leaves"
+    }
+  ],
+  "tests": {
+    "milk-dairy": [
+      {
+        "id": "milk-1",
+        "testNo": 1,
+        "name": "Detection of Water in Milk",
+        "adulterant": "Water",
+        "procedure": [
+          "Put a drop of milk on a polished slanting surface.",
+          "Observe how the milk flows.",
+          "Pure milk either stays or flows slowly leaving a white trail behind.",
+          "Milk adulterated with water will flow immediately without leaving a mark."
+        ],
+        "pureResult": "Milk stays or flows slowly leaving a white trail.",
+        "adulteratedResult": "Milk flows immediately without leaving any mark.",
+        "healthRisk": "Diluted milk reduces nutritional value; pathogens in unclean water can cause gastrointestinal infections.",
+        "riskLevel": "Medium",
+        "keywords": [
+          "flows immediately",
+          "no mark",
+          "no trail",
+          "flows fast",
+          "water mark"
+        ]
+      },
+      {
+        "id": "milk-2",
+        "testNo": 2,
+        "name": "Detection of Detergent in Milk",
+        "adulterant": "Detergent",
+        "procedure": [
+          "Take 5 to 10ml of sample with an equal amount of water.",
+          "Shake the contents thoroughly.",
+          "If milk is adulterated with detergent, it forms dense lather.",
+          "Pure milk will form very thin foam layer due to agitation."
+        ],
+        "pureResult": "Very thin foam layer forms on shaking.",
+        "adulteratedResult": "Dense, persistent lather forms on shaking.",
+        "healthRisk": "Detergent in milk can cause gastrointestinal disorders, stomach irritation, vomiting, and diarrhea. Long-term exposure may affect liver and kidneys.",
+        "riskLevel": "High",
+        "keywords": [
+          "dense lather",
+          "thick foam",
+          "foam formed",
+          "lather",
+          "bubbles"
+        ]
+      },
+      {
+        "id": "milk-3",
+        "testNo": 3,
+        "name": "Detection of Starch in Milk / Khoya / Chenna / Paneer",
+        "adulterant": "Starch",
+        "procedure": [
+          "Boil 2-3 ml of sample with 5ml of water.",
+          "Cool the sample.",
+          "Add 2-3 drops of tincture of iodine.",
+          "Formation of blue colour indicates presence of starch.",
+          "(For milk: addition of water and boiling is not required)"
+        ],
+        "pureResult": "No colour change (remains yellow/brown of iodine).",
+        "adulteratedResult": "Blue colour formation indicates presence of starch.",
+        "healthRisk": "Starch adulteration reduces nutritional value. Can cause digestive issues, especially in infants and people with starch intolerance.",
+        "riskLevel": "Medium",
+        "keywords": [
+          "blue colour",
+          "blue color",
+          "turns blue",
+          "iodine blue",
+          "blue"
+        ]
+      },
+      {
+        "id": "milk-4",
+        "testNo": 4,
+        "name": "Detection of Mashed Potatoes / Starches in Ghee / Butter",
+        "adulterant": "Mashed potatoes, sweet potatoes, starch",
+        "procedure": [
+          "Take ½ teaspoon of ghee/butter in a transparent glass bowl.",
+          "Add 2-3 drops of tincture of iodine.",
+          "Formation of blue colour indicates the presence of mashed potatoes, sweet potatoes or other starches."
+        ],
+        "pureResult": "No blue colour; iodine remains yellow-brown.",
+        "adulteratedResult": "Blue colour forms indicating starch presence.",
+        "healthRisk": "Starch adulteration in ghee reduces its nutritional quality and can cause digestive problems.",
+        "riskLevel": "Medium",
+        "keywords": [
+          "blue colour",
+          "blue color",
+          "turns blue",
+          "blue"
+        ]
+      }
+    ],
+    "oils-fats": [
+      {
+        "id": "oil-1",
+        "testNo": 5,
+        "name": "Detection of Other Oils in Coconut Oil",
+        "adulterant": "Other vegetable oils",
+        "procedure": [
+          "Take coconut oil in a transparent glass.",
+          "Place this glass in refrigerator for 30 minutes. (Do not keep in the freezer)",
+          "After refrigeration, coconut oil solidifies.",
+          "If coconut oil is adulterated, other oils remain as a separate layer."
+        ],
+        "pureResult": "Coconut oil solidifies completely — no separate layer visible.",
+        "adulteratedResult": "A liquid layer of other oils remains separate on top or bottom.",
+        "healthRisk": "Cheaper oils may contain trans fats or harmful substances leading to cardiovascular disease.",
+        "riskLevel": "Medium",
+        "keywords": [
+          "separate layer",
+          "liquid layer",
+          "does not solidify",
+          "not solidified fully",
+          "two layers"
+        ]
+      },
+      {
+        "id": "oil-2",
+        "testNo": 6,
+        "name": "Detection of TOCP (Tri-Ortho-Cresyl-Phosphate) in Oils",
+        "adulterant": "TOCP (industrial lubricant)",
+        "procedure": [
+          "Take 2ml of sample of oil.",
+          "Add a little amount of yellow butter (solid).",
+          "Immediate formation of red colour indicates the presence of TOCP."
+        ],
+        "pureResult": "No red colour formation.",
+        "adulteratedResult": "Immediate red colour formation indicates TOCP.",
+        "healthRisk": "TOCP is highly toxic. Causes paralysis, nerve damage, and serious neurological disorders. Can be fatal in high doses.",
+        "riskLevel": "Critical",
+        "keywords": [
+          "red colour",
+          "red color",
+          "turns red",
+          "red"
+        ]
+      },
+      {
+        "id": "oil-3",
+        "testNo": 7,
+        "name": "Proper Winterization of Refined Salad Oils",
+        "adulterant": "Improper winterization",
+        "procedure": [
+          "Take 100ml sample oil in a bottle, cork tightly and seal with paraffin.",
+          "Submerge bottle completely in bucket containing finely cracked ice.",
+          "Add water until it rises to top of the bottle.",
+          "Keep bucket solidly filled with ice for 5.5 hours.",
+          "After 5.5 hours, remove bottle and examine oil.",
+          "If properly winterized, sample will be brilliant, clear and limpid."
+        ],
+        "pureResult": "Oil remains brilliant, clear and limpid after 5.5 hours in ice.",
+        "adulteratedResult": "Oil becomes turbid or cloudy — improperly winterized.",
+        "healthRisk": "Improperly winterized oil may contain saturated fats that can affect cardiovascular health.",
+        "riskLevel": "Low",
+        "keywords": [
+          "turbid",
+          "cloudy",
+          "not clear",
+          "hazy",
+          "white"
+        ]
+      }
+    ],
+    "sweets-sugar": [
+      {
+        "id": "sweet-1",
+        "testNo": 8,
+        "name": "Detection of Sugar Solution in Honey",
+        "adulterant": "Sugar syrup / added sugar",
+        "procedure": [
+          "Method 1: Take a transparent glass of water. Add a drop of honey. Pure honey will not disperse in water. If honey disperses, it indicates added sugar.",
+          "Method 2: Take a cotton wick dipped in pure honey and light with match stick. Pure honey will burn. Adulterated honey will not burn or produces cracking sound."
+        ],
+        "pureResult": "Honey settles at bottom without dispersing. Burns cleanly when lit.",
+        "adulteratedResult": "Honey disperses in water. Does not burn or produces cracking sound.",
+        "healthRisk": "Sugar-adulterated honey spikes blood sugar levels rapidly, dangerous for diabetics. Reduces antioxidant and antibacterial properties.",
+        "riskLevel": "High",
+        "keywords": [
+          "disperses",
+          "dissolves",
+          "mixes",
+          "does not burn",
+          "cracking sound",
+          "spreads"
+        ]
+      },
+      {
+        "id": "sweet-2",
+        "testNo": 9,
+        "name": "Detection of Chalk Powder in Sugar / Jaggery",
+        "adulterant": "Chalk powder",
+        "procedure": [
+          "Take a transparent glass of water.",
+          "Dissolve 10g of sample in water.",
+          "If sugar/jaggery is mixed with chalk, the adulterant will settle down at the bottom."
+        ],
+        "pureResult": "Clear solution with no sediment at bottom.",
+        "adulteratedResult": "White chalky sediment settles at the bottom.",
+        "healthRisk": "Chalk powder consumption can cause digestive issues, constipation, and long-term kidney damage.",
+        "riskLevel": "Medium",
+        "keywords": [
+          "sediment",
+          "settles",
+          "white residue",
+          "chalky deposit",
+          "bottom residue"
+        ]
+      },
+      {
+        "id": "sweet-3",
+        "testNo": 10,
+        "name": "Detection of Aluminium Leaves in Silver Leaves (Vark)",
+        "adulterant": "Aluminium foil",
+        "procedure": [
+          "Take a portion of the leaf and crush it between two fingers.",
+          "Pure silver leaves will be easily crushed and crumble to powder form.",
+          "Aluminium leaves will only break into smaller shreds.",
+          "Make the suspected silver leaf into a ball and burn it with a flame.",
+          "Pure silver leaves burn away leaving glistening balls.",
+          "Aluminium leaves are reduced to grey ash."
+        ],
+        "pureResult": "Crumbles to powder on crushing. Burns to glistening balls.",
+        "adulteratedResult": "Only breaks into shreds. Burns to grey ash.",
+        "healthRisk": "Aluminium consumption can cause neurological disorders, Alzheimer's disease risk, and kidney damage.",
+        "riskLevel": "High",
+        "keywords": [
+          "grey ash",
+          "does not crumble",
+          "shreds",
+          "doesn't powder",
+          "breaks into pieces"
+        ]
+      }
+    ],
+    "cereals-pulses": [
+      {
+        "id": "cereal-1",
+        "testNo": 11,
+        "name": "Detection of Extraneous Matter in Food Grains",
+        "adulterant": "Dust, pebbles, stones, straw, weed seeds, insects, rodent hair",
+        "procedure": [
+          "Take a small quantity of food grains sample in a glass plate.",
+          "Examine the impurities visually.",
+          "Pure food grains will not have dust, pebbles, stones, straw, weed seeds, insects, rodent hair or excreta."
+        ],
+        "pureResult": "No visible impurities — clean, uniform grains.",
+        "adulteratedResult": "Visible presence of dust, pebbles, stones, weed seeds, insects or rodent matter.",
+        "healthRisk": "Can cause food poisoning, infections, choking hazards. Rodent excreta can spread Salmonella and Hantavirus.",
+        "riskLevel": "High",
+        "keywords": [
+          "pebbles",
+          "stones",
+          "insects",
+          "dirt",
+          "impurities",
+          "foreign matter",
+          "rodent"
+        ]
+      },
+      {
+        "id": "cereal-2",
+        "testNo": 12,
+        "name": "Detection of Dhatura in Food Grains",
+        "adulterant": "Dhatura seeds (poisonous)",
+        "procedure": [
+          "Take a small quantity of food grains in a glass plate.",
+          "Examine the sample visually.",
+          "Dhatura seeds are flat with edges and blackish brown in colour — can be separated by close examination."
+        ],
+        "pureResult": "No blackish-brown flat edged seeds visible.",
+        "adulteratedResult": "Flat, edged, blackish-brown dhatura seeds visible among grains.",
+        "healthRisk": "Dhatura is highly toxic. Causes hallucinations, convulsions, coma, and can be fatal even in small quantities.",
+        "riskLevel": "Critical",
+        "keywords": [
+          "blackish brown seeds",
+          "flat seeds",
+          "dark seeds",
+          "dhatura"
+        ]
+      },
+      {
+        "id": "cereal-3",
+        "testNo": 13,
+        "name": "Detection of Excess Bran in Wheat Flour",
+        "adulterant": "Excess bran",
+        "procedure": [
+          "Take a transparent glass of water.",
+          "Sprinkle a spoon of wheat flour on the surface of water.",
+          "Pure wheat flour will not show excess bran on water surface.",
+          "Adulterated wheat flour shows excess bran floating on water surface."
+        ],
+        "pureResult": "No excess bran floating on water surface.",
+        "adulteratedResult": "Excess bran particles float on the water surface.",
+        "healthRisk": "Excess bran reduces flour quality. May cause digestive issues and reduces absorbability of minerals.",
+        "riskLevel": "Low",
+        "keywords": [
+          "bran floating",
+          "particles floating",
+          "floating material",
+          "excess floating"
+        ]
+      },
+      {
+        "id": "cereal-4",
+        "testNo": 14,
+        "name": "Detection of Khesari Dal in Dal",
+        "adulterant": "Khesari dal (Lathyrus sativus)",
+        "procedure": [
+          "Take a small quantity of dal (whole or split) in a glass plate.",
+          "Examine visually.",
+          "Khesari dal has edged-type appearance with a slant on one side and square appearance.",
+          "Pure dal will not have such irregularly shaped seeds."
+        ],
+        "pureResult": "Uniform-shaped dal seeds, no edged/square irregular shapes.",
+        "adulteratedResult": "Edged, square-shaped khesari dal seeds visible.",
+        "healthRisk": "Lathyrism — a neurological disorder causing irreversible lower body paralysis. Especially dangerous for children and malnourished individuals.",
+        "riskLevel": "Critical",
+        "keywords": [
+          "edged seeds",
+          "square seeds",
+          "irregular shape",
+          "different shape seeds"
+        ]
+      },
+      {
+        "id": "cereal-5",
+        "testNo": 15,
+        "name": "Detection of Added Colour in Food Grains",
+        "adulterant": "Artificial food colour",
+        "procedure": [
+          "Take a transparent glass of water.",
+          "Add 2 teaspoons of food grains and mix thoroughly.",
+          "Pure food grains will not leave any colour in water.",
+          "Adulterated food grains leave colour immediately in water."
+        ],
+        "pureResult": "Water remains clear — no colour released.",
+        "adulteratedResult": "Water becomes coloured immediately.",
+        "healthRisk": "Artificial dyes can cause allergies, hyperactivity in children, cancer risk with long-term use.",
+        "riskLevel": "High",
+        "keywords": [
+          "colour in water",
+          "water coloured",
+          "dye released",
+          "color change",
+          "water turns"
+        ]
+      },
+      {
+        "id": "cereal-6",
+        "testNo": 16,
+        "name": "Detection of Turmeric in Sella Rice",
+        "adulterant": "Turmeric (for artificial colouring)",
+        "procedure": [
+          "Take a teaspoon of rice in a glass plate.",
+          "Sprinkle a small amount of soaked lime (chuna used in pan) on the rice grains.",
+          "Pure grains will not form red colour.",
+          "Adulterated grains will form red colour."
+        ],
+        "pureResult": "No red colour formation when lime is applied.",
+        "adulteratedResult": "Red colour forms indicating turmeric adulteration.",
+        "healthRisk": "While turmeric itself is harmless, artificially coloured rice may contain lead chromate (see Test 33) which is highly toxic.",
+        "riskLevel": "Medium",
+        "keywords": [
+          "red colour",
+          "turns red",
+          "red color"
+        ]
+      },
+      {
+        "id": "cereal-7",
+        "testNo": 17,
+        "name": "Detection of Rhodamine B in Ragi",
+        "adulterant": "Rhodamine B dye",
+        "procedure": [
+          "Take a cotton ball soaked in water or vegetable oil (conduct separately).",
+          "Rub the outer surface of the ragi.",
+          "If cotton absorbs colour, it indicates rhodamine B adulteration."
+        ],
+        "pureResult": "Cotton does not absorb any colour.",
+        "adulteratedResult": "Cotton absorbs pink/red colour from ragi surface.",
+        "healthRisk": "Rhodamine B is a carcinogenic industrial dye. Causes liver, kidney damage, and is a known carcinogen.",
+        "riskLevel": "Critical",
+        "keywords": [
+          "cotton absorbs colour",
+          "colour on cotton",
+          "pink color",
+          "dye transfer"
+        ]
+      },
+      {
+        "id": "cereal-8",
+        "testNo": 18,
+        "name": "Detection of Chakunda Beans in Pulses",
+        "adulterant": "Chakunda beans",
+        "procedure": [
+          "Take a small quantity of pulses in a transparent glass plate.",
+          "Examine the impurities visually.",
+          "Chakunda beans can be separated out by close examination — they differ in shape and colour."
+        ],
+        "pureResult": "Uniform pulse seeds, no foreign beans.",
+        "adulteratedResult": "Chakunda beans visible — identifiable by distinct shape and colour.",
+        "healthRisk": "Chakunda beans contain toxic compounds causing digestive problems, vomiting, and liver damage.",
+        "riskLevel": "High",
+        "keywords": [
+          "foreign beans",
+          "different seeds",
+          "unusual seeds"
+        ]
+      },
+      {
+        "id": "cereal-9",
+        "testNo": 19,
+        "name": "Detection of Sand/Soil/Insects in Atta/Maida/Suji",
+        "adulterant": "Sand, soil, insects, webs, lumps, rodent hair",
+        "procedure": [
+          "These impurities can be identified by visual examination of the flour sample."
+        ],
+        "pureResult": "Clean, uniform flour with no visible impurities.",
+        "adulteratedResult": "Sand, soil, insects, webs, lumps, or rodent hair visible.",
+        "healthRisk": "Causes food poisoning, intestinal damage, allergic reactions. Rodent contamination can spread serious diseases.",
+        "riskLevel": "High",
+        "keywords": [
+          "sand",
+          "soil",
+          "insects",
+          "lumps",
+          "webs",
+          "dirty",
+          "gritty"
+        ]
+      }
+    ],
+    "spices": [
+      {
+        "id": "spice-1",
+        "testNo": 20,
+        "name": "Detection of Foreign Resin in Asafoetida (Hing)",
+        "adulterant": "Non-edible gum/resin",
+        "procedure": [
+          "Method 1: Burn small quantity of asafoetida in a stainless steel spoon. Pure asafoetida burns like camphor with bright flame. Adulterated will not produce bright flame.",
+          "Method 2: Powder 1g of asafoetida in glass container, add 1 teaspoon water, shake. Milky white solution with no sediments = pure."
+        ],
+        "pureResult": "Burns like camphor with bright flame. Dissolves to give milky white solution with no sediment.",
+        "adulteratedResult": "Does not burn brightly. Sediment settles at bottom when dissolved in water.",
+        "healthRisk": "Foreign resins can cause allergic reactions, digestive disorders, and liver toxicity.",
+        "riskLevel": "Medium",
+        "keywords": [
+          "does not burn",
+          "sediment",
+          "no bright flame",
+          "dark residue",
+          "does not dissolve"
+        ]
+      },
+      {
+        "id": "spice-2",
+        "testNo": 21,
+        "name": "Detection of Papaya Seeds in Black Pepper",
+        "adulterant": "Papaya seeds",
+        "procedure": [
+          "Method 1: Add black pepper to glass of water. Pure black pepper settles at bottom. Papaya seeds float on surface.",
+          "Method 2: Spread spice on white paper and examine — black pepper is brown with wrinkled surface and pungent smell. Papaya seeds have smooth oval shape, greenish brown/blackish, repulsive flavour."
+        ],
+        "pureResult": "All pepper settles at bottom. Brown wrinkled peppercorns with pungent smell.",
+        "adulteratedResult": "Seeds float on water. Smooth oval greenish-brown seeds with repulsive flavour.",
+        "healthRisk": "Papaya seeds have abortifacient properties and can cause liver/kidney toxicity in large quantities.",
+        "riskLevel": "High",
+        "keywords": [
+          "seeds floating",
+          "float",
+          "smooth seeds",
+          "oval seeds",
+          "floats on top"
+        ]
+      },
+      {
+        "id": "spice-3",
+        "testNo": 22,
+        "name": "Detection of Light Black Berries in Black Pepper",
+        "adulterant": "Light black berries",
+        "procedure": [
+          "Press the berries with the help of fingers.",
+          "Light berries will break easily while genuine black pepper berries will not break."
+        ],
+        "pureResult": "Berries do not break easily when pressed.",
+        "adulteratedResult": "Some berries break easily — these are light black berries (adulterant).",
+        "healthRisk": "Light berries have no nutritional value and may be toxic depending on the source.",
+        "riskLevel": "Medium",
+        "keywords": [
+          "breaks easily",
+          "soft berries",
+          "crushes easily",
+          "easy to crush"
+        ]
+      },
+      {
+        "id": "spice-4",
+        "testNo": 23,
+        "name": "Detection of Soap Stone in Asafoetida (Hing)",
+        "adulterant": "Soap stone / earthy matter",
+        "procedure": [
+          "Shake a little portion of the sample with water and allow to settle.",
+          "Pure asafoetida will not leave any soap stone or earthy matter at the bottom.",
+          "If adulterated, soap stone or earthy matter will settle down at the bottom."
+        ],
+        "pureResult": "No sediment or earthy matter at the bottom.",
+        "adulteratedResult": "Soap stone or earthy matter settles at the bottom.",
+        "healthRisk": "Soap stone (talc) causes respiratory problems, digestive disorders, and is a possible carcinogen.",
+        "riskLevel": "High",
+        "keywords": [
+          "settles at bottom",
+          "sediment",
+          "earthy matter",
+          "gritty residue"
+        ]
+      },
+      {
+        "id": "spice-5",
+        "testNo": 24,
+        "name": "Detection of Artificial Colours in Chilli Powder",
+        "adulterant": "Water-soluble synthetic colours",
+        "procedure": [
+          "Sprinkle chilli powder on the surface of water in a glass tumbler.",
+          "Artificial colourants will immediately start descending in colour streaks."
+        ],
+        "pureResult": "Chilli powder floats without releasing colour streaks into water.",
+        "adulteratedResult": "Colour streaks descend immediately through the water.",
+        "healthRisk": "Synthetic dyes (like Rhodamine B, Sudan dyes) are carcinogenic. Cause liver damage, allergic reactions, and are banned in food.",
+        "riskLevel": "Critical",
+        "keywords": [
+          "colour streaks",
+          "colour descending",
+          "dye in water",
+          "color bleeding",
+          "streaks"
+        ]
+      },
+      {
+        "id": "spice-6",
+        "testNo": 25,
+        "name": "Detection of Light Black Berries in Black Pepper (Alcohol Method)",
+        "adulterant": "Light black berries",
+        "procedure": [
+          "Float the sample of black pepper in alcohol (rectified spirit).",
+          "Mature black pepper berries sink while light black pepper floats."
+        ],
+        "pureResult": "All pepper sinks in alcohol.",
+        "adulteratedResult": "Some berries float in alcohol — these are light black berries.",
+        "healthRisk": "Light berries are adulterants with no nutritional value.",
+        "riskLevel": "Medium",
+        "keywords": [
+          "floats in alcohol",
+          "floating in spirit",
+          "floats"
+        ]
+      },
+      {
+        "id": "spice-7",
+        "testNo": 26,
+        "name": "Detection of Saw Dust in Chilli Powder",
+        "adulterant": "Saw dust",
+        "procedure": [
+          "Add the sample to water.",
+          "Saw dust will float at the surface of water while chilli powder will settle at the bottom."
+        ],
+        "pureResult": "Chilli powder settles at bottom; no floating material.",
+        "adulteratedResult": "Saw dust particles float on water surface.",
+        "healthRisk": "Saw dust has no nutritional value, causes intestinal damage, and may contain chemicals from treated wood.",
+        "riskLevel": "High",
+        "keywords": [
+          "floating particles",
+          "floats on top",
+          "wood particles",
+          "dust floating"
+        ]
+      },
+      {
+        "id": "spice-8",
+        "testNo": 27,
+        "name": "Detection of Starch in Asafoetida (Hing)",
+        "adulterant": "Starch",
+        "procedure": [
+          "Add tincture of iodine to the sample of asafoetida.",
+          "Appearance of blue colour indicates the presence of starch."
+        ],
+        "pureResult": "No blue colour formation.",
+        "adulteratedResult": "Blue colour appears indicating starch adulteration.",
+        "healthRisk": "Starch adulteration reduces the medicinal and culinary value of hing.",
+        "riskLevel": "Low",
+        "keywords": [
+          "blue colour",
+          "turns blue",
+          "blue color"
+        ]
+      },
+      {
+        "id": "spice-9",
+        "testNo": 28,
+        "name": "Detection of Chalk in Common Salt",
+        "adulterant": "Chalk powder",
+        "procedure": [
+          "Stir a spoonful of sample of salt in a glass of water.",
+          "Presence of chalk will make the solution white and other insoluble impurities will settle down."
+        ],
+        "pureResult": "Clear solution — salt dissolves completely with no white residue.",
+        "adulteratedResult": "Solution turns white and insoluble matter settles at bottom.",
+        "healthRisk": "Chalk consumption causes digestive disorders, constipation, kidney stones, and reduced mineral absorption.",
+        "riskLevel": "Medium",
+        "keywords": [
+          "white solution",
+          "white residue",
+          "cloudy",
+          "settles",
+          "insoluble"
+        ]
+      },
+      {
+        "id": "spice-10",
+        "testNo": 29,
+        "name": "Detection of Exhausted Cloves in Cloves",
+        "adulterant": "Exhausted (volatile oil extracted) cloves",
+        "procedure": [
+          "Take some water in a glass and put cloves.",
+          "Genuine cloves will settle down at the bottom.",
+          "Exhausted cloves (volatile oil extracted) will float on surface."
+        ],
+        "pureResult": "Cloves sink to the bottom.",
+        "adulteratedResult": "Exhausted cloves float on water surface.",
+        "healthRisk": "Exhausted cloves have no medicinal properties (eugenol removed). May be treated with chemicals during oil extraction.",
+        "riskLevel": "Medium",
+        "keywords": [
+          "floats",
+          "floating cloves",
+          "cloves on surface"
+        ]
+      },
+      {
+        "id": "spice-11",
+        "testNo": 30,
+        "name": "Detection of Cassia Bark in Cinnamon",
+        "adulterant": "Cassia bark",
+        "procedure": [
+          "Take a small quantity of cinnamon in a glass plate.",
+          "Cassia bark comprises several layers — rough outer and smooth inner layers can be differentiated.",
+          "Cinnamon barks are very thin and can be rolled around a pencil or pen with distinct smell."
+        ],
+        "pureResult": "Thin, smooth bark that rolls easily like paper around a pencil with a sweet distinct smell.",
+        "adulteratedResult": "Thick, multi-layered, rough bark that does not roll easily.",
+        "healthRisk": "Cassia contains high levels of coumarin which can cause liver damage and blood thinning issues.",
+        "riskLevel": "Medium",
+        "keywords": [
+          "thick bark",
+          "rough texture",
+          "multilayer",
+          "does not roll",
+          "hard bark"
+        ]
+      },
+      {
+        "id": "spice-12",
+        "testNo": 31,
+        "name": "Detection of Charcoal-Coloured Grass Seeds in Cumin",
+        "adulterant": "Grass seeds coloured with charcoal dust",
+        "procedure": [
+          "Rub a small amount of cumin seeds on palms.",
+          "If palms turn black, adulteration is indicated."
+        ],
+        "pureResult": "Palms remain clean — no black colour transfer.",
+        "adulteratedResult": "Palms turn black from charcoal dust on adulterated grass seeds.",
+        "healthRisk": "Charcoal dust inhalation and ingestion can cause respiratory issues and digestive irritation.",
+        "riskLevel": "Medium",
+        "keywords": [
+          "palms turn black",
+          "black on hands",
+          "black residue",
+          "turns black"
+        ]
+      },
+      {
+        "id": "spice-13",
+        "testNo": 32,
+        "name": "Detection of Argemone Seeds in Mustard Seeds",
+        "adulterant": "Argemone seeds",
+        "procedure": [
+          "Take small quantity of mustard seeds in a glass plate.",
+          "Examine visually for argemone seeds.",
+          "Mustard seeds have smooth surface — yellow inside when pressed.",
+          "Argemone seeds have grainy, rough surface — black colour — white inside when pressed."
+        ],
+        "pureResult": "All seeds smooth, yellow inside when pressed.",
+        "adulteratedResult": "Some seeds with rough/grainy black surface that show white inside when pressed.",
+        "healthRisk": "Argemone oil (sanguinarine) causes epidemic dropsy — severe fluid accumulation, heart failure, glaucoma, and can be fatal.",
+        "riskLevel": "Critical",
+        "keywords": [
+          "rough seeds",
+          "black seeds",
+          "grainy surface",
+          "white inside"
+        ]
+      },
+      {
+        "id": "spice-14",
+        "testNo": 33,
+        "name": "Detection of Lead Chromate in Turmeric Whole",
+        "adulterant": "Lead chromate",
+        "procedure": [
+          "Add small quantity of turmeric whole in a transparent glass of water.",
+          "Pure turmeric will not leave any colour.",
+          "Adulterated turmeric appears bright in colour and leaves colour immediately in water."
+        ],
+        "pureResult": "Water remains pale yellow; turmeric retains its colour slowly.",
+        "adulteratedResult": "Bright yellow colour immediately leaches into water.",
+        "healthRisk": "Lead chromate is highly toxic — causes lead poisoning, kidney failure, nervous system damage, cancer, and reproductive harm.",
+        "riskLevel": "Critical",
+        "keywords": [
+          "immediate colour",
+          "bright yellow water",
+          "colour leaches immediately",
+          "instant colour"
+        ]
+      },
+      {
+        "id": "spice-15",
+        "testNo": 34,
+        "name": "Detection of Artificial Colour in Turmeric Powder",
+        "adulterant": "Artificial yellow colour (metanil yellow etc.)",
+        "procedure": [
+          "Add a teaspoon of turmeric powder in a glass of water.",
+          "Natural turmeric powder leaves light yellow colour while settling down.",
+          "Adulterated turmeric powder will leave a strong yellow colour in water while settling down."
+        ],
+        "pureResult": "Light, pale yellow colour while settling — normal turmeric colour.",
+        "adulteratedResult": "Strong, intense yellow colour left in water.",
+        "healthRisk": "Metanil yellow is carcinogenic. Lead chromate causes heavy metal poisoning. Both banned in food.",
+        "riskLevel": "Critical",
+        "keywords": [
+          "strong yellow",
+          "intense yellow",
+          "bright yellow",
+          "deep yellow colour"
+        ]
+      },
+      {
+        "id": "spice-16",
+        "testNo": 35,
+        "name": "Detection of Sawdust / Powdered Bran in Spices",
+        "adulterant": "Sawdust, powdered bran",
+        "procedure": [
+          "Sprinkle powdered spices on the water surface.",
+          "Pure spices will not leave any saw dust/powdered bran on the surface.",
+          "If spices are adulterated, saw dust/powdered bran will float on the surface."
+        ],
+        "pureResult": "Nothing floats on water surface after sprinkling.",
+        "adulteratedResult": "Saw dust or powdered bran floats on water surface.",
+        "healthRisk": "Sawdust contains no nutritional value and may contain toxic wood treatment chemicals.",
+        "riskLevel": "High",
+        "keywords": [
+          "floats on surface",
+          "floating material",
+          "particles float"
+        ]
+      }
+    ],
+    "vegetables-fruits": [
+      {
+        "id": "veg-1",
+        "testNo": 36,
+        "name": "Differentiation of Common Salt and Iodised Salt",
+        "adulterant": "Absence of iodine (non-iodised salt sold as iodised)",
+        "procedure": [
+          "Cut a piece of potato, add salt and wait for a minute.",
+          "Add two drops of lemon juice.",
+          "If it is iodised salt, blue colour will develop.",
+          "In the case of common salt, there will be no blue colour."
+        ],
+        "pureResult": "Blue colour develops — confirms iodised salt.",
+        "adulteratedResult": "No blue colour — indicates common salt being sold as iodised.",
+        "healthRisk": "Iodine deficiency causes goiter, hypothyroidism, intellectual disability in children, and pregnancy complications.",
+        "riskLevel": "High",
+        "keywords": [
+          "no blue colour",
+          "no blue color",
+          "no colour change",
+          "remains white"
+        ]
+      },
+      {
+        "id": "veg-2",
+        "testNo": 37,
+        "name": "Detection of Coloured Maize Cob Tendrils in Saffron",
+        "adulterant": "Dried maize cob tendrils soaked in sugar and coal tar colour",
+        "procedure": [
+          "Take a transparent glass of water and add small quantity of saffron.",
+          "Pure saffron continues to give its saffron colour as long as it lasts.",
+          "If adulterated, artificial colour dissolves in water rapidly.",
+          "Note: Genuine saffron will not break easily like artificial."
+        ],
+        "pureResult": "Saffron slowly and continuously releases natural colour.",
+        "adulteratedResult": "Colour dissolves rapidly and completely in water.",
+        "healthRisk": "Coal tar dyes are carcinogenic. Fake saffron provides no health benefits and may cause toxicity.",
+        "riskLevel": "Critical",
+        "keywords": [
+          "colour dissolves fast",
+          "rapid colour release",
+          "instant colour",
+          "breaks easily"
+        ]
+      },
+      {
+        "id": "veg-3",
+        "testNo": 38,
+        "name": "Detection of Malachite Green in Green Vegetables",
+        "adulterant": "Malachite green dye",
+        "procedure": [
+          "Method 1: Take a cotton piece soaked in water or vegetable oil (separately). Rub the outer green surface of vegetable/chilli. If cotton turns green, malachite green is present.",
+          "Method 2: Place small part of sample on moistened white blotting paper. Impression of colour indicates use of malachite green or artificial colour."
+        ],
+        "pureResult": "Cotton does not turn green. No colour impression on blotting paper.",
+        "adulteratedResult": "Cotton turns green OR blotting paper shows colour impression.",
+        "healthRisk": "Malachite green is highly toxic and carcinogenic. Causes liver, kidney damage, reproductive toxicity, and is banned in food.",
+        "riskLevel": "Critical",
+        "keywords": [
+          "cotton turns green",
+          "green on cotton",
+          "colour on blotting",
+          "green dye transfer"
+        ]
+      },
+      {
+        "id": "veg-4",
+        "testNo": 39,
+        "name": "Detection of Artificial Colour on Green Peas",
+        "adulterant": "Artificial green colour",
+        "procedure": [
+          "Take little amount of green peas in a transparent glass.",
+          "Add water and mix well.",
+          "Let it stand for half an hour.",
+          "Clear separation of colour in water indicates adulteration."
+        ],
+        "pureResult": "Water remains clear after half an hour.",
+        "adulteratedResult": "Colour separates and water turns green.",
+        "healthRisk": "Artificial dyes cause allergic reactions, carcinogenic risk, hyperactivity in children.",
+        "riskLevel": "High",
+        "keywords": [
+          "water turns green",
+          "colour separates",
+          "green water",
+          "dye in water"
+        ]
+      },
+      {
+        "id": "veg-5",
+        "testNo": 40,
+        "name": "Detection of Rhodamine B in Sweet Potato",
+        "adulterant": "Rhodamine B dye",
+        "procedure": [
+          "Take a cotton ball soaked in water or vegetable oil (separately).",
+          "Rub the outer red surface of the sweet potato.",
+          "If cotton absorbs colour, it indicates usage of rhodamine B."
+        ],
+        "pureResult": "Cotton does not absorb any colour.",
+        "adulteratedResult": "Cotton absorbs pink/red colour indicating rhodamine B.",
+        "healthRisk": "Rhodamine B is a carcinogenic industrial dye. Causes serious liver and kidney damage.",
+        "riskLevel": "Critical",
+        "keywords": [
+          "cotton absorbs colour",
+          "pink on cotton",
+          "red on cotton",
+          "colour transfer"
+        ]
+      }
+    ],
+    "beverages": [
+      {
+        "id": "bev-1",
+        "testNo": 41,
+        "name": "Detection of Clay in Coffee Powder",
+        "adulterant": "Clay particles",
+        "procedure": [
+          "Add ½ teaspoon of coffee powder in a transparent glass of water.",
+          "Stir for a minute and keep aside for 5 minutes.",
+          "Observe the glass at the bottom.",
+          "Pure coffee powder will not leave any clay particles at bottom.",
+          "If adulterated, clay particles settle at the bottom."
+        ],
+        "pureResult": "No clay particles at the bottom after 5 minutes.",
+        "adulteratedResult": "Clay/mud particles settle at the bottom.",
+        "healthRisk": "Clay consumption can cause intestinal blockage, reduce nutrient absorption, and carry harmful bacteria.",
+        "riskLevel": "High",
+        "keywords": [
+          "clay at bottom",
+          "sediment",
+          "mud",
+          "particles settle",
+          "residue at bottom"
+        ]
+      },
+      {
+        "id": "bev-2",
+        "testNo": 42,
+        "name": "Detection of Chicory Powder in Coffee Powder",
+        "adulterant": "Chicory powder",
+        "procedure": [
+          "Take a transparent glass of water.",
+          "Add a teaspoon of coffee powder.",
+          "Coffee powder floats over the water but chicory begins to sink."
+        ],
+        "pureResult": "Coffee powder floats on water.",
+        "adulteratedResult": "Some powder sinks — the sinking portion is chicory.",
+        "healthRisk": "Chicory is generally safe but its presence reduces coffee quality. May cause allergic reactions in people sensitive to ragweed.",
+        "riskLevel": "Low",
+        "keywords": [
+          "sinks",
+          "powder sinks",
+          "chicory sinks",
+          "partial sinking"
+        ]
+      },
+      {
+        "id": "bev-3",
+        "testNo": 43,
+        "name": "Detection of Exhausted Tea in Tea Leaves",
+        "adulterant": "Exhausted/used tea leaves, coal tar colour",
+        "procedure": [
+          "Method 1: Spread tea on filter paper, sprinkle water, wash under tap, observe stains against light. Adulterated tea stains the paper immediately.",
+          "Method 2: Place tea at centre of filter paper, add water drops. Coloured tea leaves colour streak on paper.",
+          "Method 3: Spread slaked lime on white tile, sprinkle tea dust. Red/orange/shades indicate coal tar colour. Genuine tea shows slight greenish yellow slowly."
+        ],
+        "pureResult": "No stains on filter paper. No colour streaks. Only slight greenish yellow on lime.",
+        "adulteratedResult": "Immediate staining of filter paper. Colour streaks on filter paper. Red/orange colour on lime.",
+        "healthRisk": "Coal tar dyes in tea are carcinogenic. Exhausted tea has no antioxidant benefits.",
+        "riskLevel": "High",
+        "keywords": [
+          "stains filter paper",
+          "colour streaks",
+          "stains paper",
+          "colour on lime",
+          "immediate stain"
+        ]
+      },
+      {
+        "id": "bev-4",
+        "testNo": 44,
+        "name": "Detection of Iron Filings in Tea Leaves",
+        "adulterant": "Iron filings (metallic)",
+        "procedure": [
+          "Take a small quantity of tea leaves in a glass plate.",
+          "Move a magnet through the tea leaves.",
+          "Pure tea leaves will not show any iron filings on the magnet.",
+          "If adulterated, iron filings will be seen on the magnet."
+        ],
+        "pureResult": "Magnet picks up nothing from tea leaves.",
+        "adulteratedResult": "Iron filings stick to the magnet.",
+        "healthRisk": "Excess iron can cause iron toxicity, liver damage, and hemochromatosis. Metallic particles can damage the digestive tract.",
+        "riskLevel": "High",
+        "keywords": [
+          "iron on magnet",
+          "magnet picks up",
+          "filings on magnet",
+          "attracted to magnet"
+        ]
+      }
+    ]
+  }
+}
